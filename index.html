@@ -1,46 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Portfólio - Edivan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Edivan Matias</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header>
-    <h1>Edivan Matias</h1>
-    <p>Desenvolvedor Front-end em formação</p>
+  <header class="hero">
+    <div class="container">
+      <p class="tag">Portfólio Profissional</p>
+      <h1>Edivan Matias</h1>
+      <p class="subtitle">Desenvolvedor Front-end em formação, construindo projetos reais com HTML, CSS, JavaScript, Git e GitHub.</p>
+      <div class="hero-links">
+        <a href="https://github.com/edMatias" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/edivan-matias-4819a3251/" target="_blank">LinkedIn</a>
+        <a href="https://marketplace-projeto.vercel.app/" target="_blank">Ver Marketplace</a>
+      </div>
+    </div>
   </header>
 
-  <section>
-    <h2>🚀 Sobre mim</h2>
-    <p>Sou um desenvolvedor em formação focado em HTML, CSS e JavaScript, construindo projetos práticos e evoluindo todos os dias.</p>
-  </section>
+  <main class="container">
+    <section class="card">
+      <h2>Sobre mim</h2>
+      <p>
+        Sou um desenvolvedor em formação com foco em front-end. Estou construindo uma base sólida em HTML, CSS e JavaScript por meio de projetos práticos, buscando evoluir com consistência e transformar estudo em experiência real.
+      </p>
+    </section>
 
-  <section>
-    <h2>🛠️ Tecnologias</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
+    <section class="card">
+      <h2>Tecnologias</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Vercel</span>
+      </div>
+    </section>
 
-  <section>
-    <h2>📌 Projetos</h2>
-    <p>
-      🛒 <a href="https://marketplace-projeto.vercel.app/" target="_blank">Ver Marketplace</a>
-    </p>
-  </section>
+    <section class="card">
+      <h2>Projeto em destaque</h2>
+      <div class="project">
+        <h3>Marketplace Projeto</h3>
+        <p>
+          Aplicação web desenvolvida para praticar estruturação de layout, estilização com CSS e interações com JavaScript, simulando um marketplace moderno.
+        </p>
+        <div class="project-links">
+          <a href="https://marketplace-projeto.vercel.app/" target="_blank">Projeto online</a>
+          <a href="https://github.com/edMatias/marketplace-projeto" target="_blank">Código no GitHub</a>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2>📫 Contato</h2>
-    <p>
-      <a href="https://www.linkedin.com/in/edivan-matias-4819a3251/" target="_blank">LinkedIn</a>
-    </p>
-  </section>
+    <section class="card">
+      <h2>Contato</h2>
+      <p>Você pode me encontrar aqui:</p>
+      <div class="contact-links">
+        <a href="https://github.com/edMatias" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/edivan-matias-4819a3251/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </main>
 
+  <script src="script.js"></script>
 </body>
 </html>
